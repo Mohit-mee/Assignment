@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#stop::-webkit-scrollbar{
+
+display: none;
+
+}
+.priority-high {
+    background-color: #ffcccc !important; /* light red */
+  }
+  .priority-medium {
+    background-color: #fff9c4 !important; /* light yellow */
+  }
+  .priority-low {
+    background-color: #d0f5d8 !important; /* light green */
+  }
